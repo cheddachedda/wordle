@@ -1,5 +1,39 @@
 .keyboard {
-  background-color: orchid;
+  display: flex;
+  flex-direction: column;
   height: 25vh;
-  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.button {
+  align-items: center;
+  background-color: #3A3A3C;
+  border-radius: 5%;
+  color: #D8DADC;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-weight: bold;
+  justify-content: center;
+  margin: 0.2rem;
+  width: 10%;
+}
+
+.bigButton {
+  align-items: center;
+  background-color: #3A3A3C;
+  border-radius: 5%;
+  color: #D8DADC;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  justify-content: center;
+  margin: 0.2rem;
+  width: 15%;
 }
