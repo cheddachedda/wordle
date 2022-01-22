@@ -14,4 +14,24 @@ const Board = () => {
   );
 };
 
+const Row = () => {
+  return (
+    <div className={ styles.row }>
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
+    </div>
+  );
+};
+
+const Tile = () => {
+  return (
+    <div className={ styles.tile }>
+      <p className={ styles.text }>X</p>
+    </div>
+  );
+};
+
 export default Board;
