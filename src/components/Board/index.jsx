@@ -1,5 +1,4 @@
 import styles from './Board.module.css';
-import Row from '../Row';
 
 const Board = () => {
   return (
@@ -29,7 +28,7 @@ const Row = () => {
 const Tile = () => {
   return (
     <div className={ styles.tile }>
-      <p className={ styles.text }>X</p>
+      <p className={ styles.text }></p>
     </div>
   );
 };
